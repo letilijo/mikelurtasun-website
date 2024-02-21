@@ -1,0 +1,95 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Sobre mí</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Cualquier momento me parece bueno para ponerme a dibujar, cualquier excusa un buen motivo para crear.
+    He diseñado portadas de libros, invitaciones de boda, además de realizar diseños para camisetas, cartelería para eventos y logotipos para empresas y organizaciones.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Formación académica</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Técnico Superior en Diseño y Producción Editorial"
+      subtitle="2007 a 2009 en Ceinpro, Donostia-San Sebastián, España"
+    />
+    <TimeLineElement
+      title="Beca Leonardo para Prácticas de Diseño Gráfico"
+      subtitle="2009 en Naiade SRL, Florencia, Italia"
+    />
+    <TimeLineElement
+      title="Máster Nuevas Tecnologías Web y Animación de Adobe"
+      subtitle="2010 en Forland (Ceinpro), Donostia-San Sebastián, España"
+    />
+  </div>
+
+  <!--<div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiencia</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Job Title at Project or Company Name"
+      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Job Title at Project or Company Name"
+      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Job Title at Project or Company Name"
+      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+  </ul>-->
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Conocimientos</div>
+  </div>
+
+  <ul class="list-disc mb-10 md:columns-3 columns-2 mx-6">
+    <li>Adobe Creative Suite</li>
+    <li>Experiencia de usuario</li>
+    <li>Visión espacial</li>
+    <li>Serigrafía</li>
+    <li>Estampación (Transfer textil)</li>
+    <li>Técnicas de pintura</li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Intereses</div>
+  </div>
+  <ul class="list-disc md:columns-1 columns-2 mx-6">
+    <li>Música: bajo y batería</li>
+    <li>Montaña</li>
+    <li>Ciclismo</li>
+
+  </ul>
+</BaseLayout>
