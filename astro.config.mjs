@@ -6,5 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://letilijo.github.io',
+  base: 'mikelurtasun-website',
   integrations: [mdx(), sitemap(), tailwind()]
 });
